@@ -1,0 +1,59 @@
+html {
+    font-size: 12px; /* comment  */
+    font-family: "Oxygen", sans-serif; 
+    background-color: #efefef; /* change page color*/
+  }
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #d7cec7;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 50px;
+    text-align: center;
+    color: #564656;
+    /*text-shadow: 3px 3px 1px black;*/
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+li {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } /* center the image */
+
+
+/*
+p {
+    color: red;
+    width: 190px;
+    border: 1px solid black;
+}
+
+
+li, h1 {
+    color: blue;
+} 
+
+*/
