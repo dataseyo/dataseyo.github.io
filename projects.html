@@ -1,5 +1,18 @@
 <html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  </head>
   <body>
+    
+    <!-- load navbar on all pages -->
+    <div id="nav-placeholder"></div>
+    <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script> 
+    <!-- end of navbar -->
+    
     <h1> Projects </h1>
     <p> project 1 </p>
     <p> return to <a href="index.html"> Home </a></p>
