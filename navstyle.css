@@ -1,5 +1,5 @@
 /* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it. This code also sets the default font for your whole page. Put it at the very top of your css page.  */
-html, body, div, p {
+html, body, div, p, ul, li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -27,7 +27,7 @@ html, body, div, p {
 
 /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
 .nav li:hover {
-  background: red;
+  background: blue;
   transition: background .3s;
 }
 
@@ -35,4 +35,9 @@ html, body, div, p {
 .nav-link {
   color: #fff;
   text-decoration: none;
+}
+
+
+.mainpage li, ul {
+ 
 }
