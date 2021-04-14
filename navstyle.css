@@ -1,5 +1,5 @@
 /* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it. This code also sets the default font for your whole page. Put it at the very top of your css page.  */
-html, body, div, p, ul, li {
+html, body, div, p {
   margin: 0;
   padding: 0;
   border: 0;
